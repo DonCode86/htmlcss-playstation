@@ -20,6 +20,11 @@
     color: #386be5;
     background-color: #d9dadc;
 }
+
+.btn-now {
+    color: #000;
+    background-color: #f5f5f5;
+}
 /*------------------
     TYPO
 ------------------*/
@@ -143,6 +148,7 @@
 .New-games {
     background-color: #1f1f1f;
 }
+
 /*------------------
     PS PLUS 
 ------------------*/
@@ -154,6 +160,12 @@
     width: 60%;
 }
 
+/*------------------
+    PS NOW
+------------------*/
+.ps-now-section {
+    background-color: #161c3b;
+}
 /*------------------
     MEDIA QUERY
 ------------------*/
