@@ -166,6 +166,22 @@
 .ps-now-section {
     background-color: #161c3b;
 }
+
+/*------------------
+    PS NOW
+------------------*/
+.media-img {
+    width: 100px;
+    padding: 45px 5px;
+}
+
+/*------------------
+    FOOTER
+------------------*/
+footer {
+    background-color: #00439c;
+    height: 600px;
+}
 /*------------------
     MEDIA QUERY
 ------------------*/
