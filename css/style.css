@@ -1,0 +1,52 @@
+/*------------------
+    HEADER
+------------------*/
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.header-top {
+    background-color: black;
+    text-align: end;
+    padding: 5px 10px;
+}
+
+.header-top h2 {
+    color: white;
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Orelega One';
+}
+
+.navbar {
+    color: #000;
+}
+
+.header-bottom {
+    font-weight: 500;
+}
+
+/*------------------
+    BUTTONS
+------------------*/
+.btn {
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+}
+
+.btn-gray {
+    background-color: #363636;
+}
+
+
+/*------------------
+    MEDIA QUERY
+------------------*/
+
+@media screen and (max-width: 991px) {
+    .header-bottom-nav {
+        display: none;
+    }
+}
