@@ -61,6 +61,16 @@
     max-width: 40%;
 }
 
+.game-list-img {
+    width: 100%;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+.game-list-img-borded {
+    border: 1px solid blue;
+}
+
 /*------------------
     MEDIA QUERY
 ------------------*/
