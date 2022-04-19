@@ -18,7 +18,7 @@
 /*------------------
     TYPO
 ------------------*/
-.playstation-presentation h5 {
+.text-blue{
     font-size: 11px;
     margin: 0;
     color: #0072ce;
@@ -93,6 +93,15 @@
 .console-presentation {
     display: flex;
     align-items: center;
+    padding-bottom: 55px;
+}
+
+.device-list img {
+    padding: 5px 0;
+}
+
+.device-container-with-opacity {
+    opacity: .7;
 }
 
 /*------------------
