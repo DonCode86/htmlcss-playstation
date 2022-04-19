@@ -25,7 +25,7 @@
     padding: 0 10px;
 }
 
-.header-top h2 {
+.header-top h4 {
     color: white;
     margin: 0;
     font-weight: 400;
@@ -50,16 +50,17 @@
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
-    margin-top: 104px;
+    margin-top: 95px;
 }
 
 .hero-text {
-    padding-top: 400px;
+    padding-top: 300px;
 }
 
 .returnal-hero-banner {
     max-width: 40%;
 }
+
 /*------------------
     MEDIA QUERY
 ------------------*/
