@@ -15,7 +15,20 @@
 .btn-red {
     background-color: #cd3d0f;
 }
+/*------------------
+    TYPO
+------------------*/
+.playstation-presentation h5 {
+    font-size: 11px;
+    margin: 0;
+    color: #0072ce;
+    font-weight: 700;
+}
 
+.gray-text {
+    color: #727272;
+    font-size: 18px;
+}
 /*------------------
     HEADER
 ------------------*/
@@ -68,6 +81,18 @@
 
 .game-list-img-borded {
     border: 1px solid blue;
+}
+
+/*------------------
+    PRESENTATION 
+------------------*/
+.title-presentation {
+    padding-bottom: 50px;
+}
+
+.console-presentation {
+    display: flex;
+    align-items: center;
 }
 
 /*------------------
