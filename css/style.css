@@ -161,4 +161,8 @@
     .console-presentation {
         display: block;
     }
+
+    .col-display-none {
+        display: none;
+    }
 }
