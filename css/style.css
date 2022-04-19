@@ -1,15 +1,28 @@
 /*------------------
-    HEADER
+    BUTTONS
 ------------------*/
-header {
-    position: fixed;
-    width: 100%;
+.btn {
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
 }
 
+.btn-gray {
+    background-color: #363636;
+}
+
+.btn-red {
+    background-color: #cd3d0f;
+}
+
+/*------------------
+    HEADER
+------------------*/
 .header-top {
     background-color: black;
     text-align: end;
-    padding: 5px 10px;
+    padding: 0 10px;
 }
 
 .header-top h2 {
@@ -25,22 +38,28 @@ header {
 
 .header-bottom {
     font-weight: 500;
+    background-color: #fff;
+    z-index: 10;
 }
+
 
 /*------------------
-    BUTTONS
+    HERO
 ------------------*/
-.btn {
-    border-radius: 30px;
-    border: none;
-    color: #fff;
+.top-hero-section {
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 104px;
 }
 
-.btn-gray {
-    background-color: #363636;
+.hero-text {
+    padding-top: 400px;
 }
 
-
+.returnal-hero-banner {
+    max-width: 40%;
+}
 /*------------------
     MEDIA QUERY
 ------------------*/
