@@ -98,10 +98,33 @@
 
 .device-list img {
     padding: 5px 0;
+    width: 80%;
+}
+
+.device-container {
+    border-bottom: 2px solid #0072ce;
 }
 
 .device-container-with-opacity {
     opacity: .7;
+}
+
+.device-list {
+    padding-bottom: 50px;
+}
+
+/*------------------
+    IT TAKES TWO
+------------------*/
+.it-takes-two {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: top;
+    padding: 10px 0;
+}
+
+.it-takes-two img {
+    max-width: 45%;
+    padding: 25px 0;
 }
 
 /*------------------
