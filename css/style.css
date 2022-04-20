@@ -53,6 +53,7 @@
 .game-list-img:hover {
     border: 1px solid blue;
     margin-top: -20px;
+    box-shadow: 0 20px 20px gray;
     transition: 0.5s;
 }
 
