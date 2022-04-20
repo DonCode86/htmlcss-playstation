@@ -39,6 +39,14 @@
     color: #727272;
     font-size: 19px;
 }
+
+.footer-top-container p {
+    font-weight: 600;
+}
+
+.footer-bottom-container p {
+    font-weight: 600;
+}
 /*------------------
     HEADER
 ------------------*/
@@ -172,8 +180,7 @@
     PS NOW
 ------------------*/
 .media-img {
-    width: 100px;
-    padding: 45px 5px;
+    width: 150px;
 }
 
 /*------------------
@@ -181,14 +188,31 @@
 ------------------*/
 footer {
     background-color: #00439c;
-    height: 600px;
 }
+.footer-top-container {
+    padding-top: 70px;
+}
+
+.logo-ps-footer {
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+.sie-logo {
+    width: 200px;
+}
+
+.footer-top-container li {
+    padding: 5px 0;
+    font-weight: 600;
+}
+
 /*------------------
     MEDIA QUERY
 ------------------*/
 
 @media screen and (max-width: 991px) {
-    
+
     .console-presentation {
         display: block;
     }
