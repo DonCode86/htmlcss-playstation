@@ -48,6 +48,14 @@
     font-weight: 600;
 }
 /*------------------
+    EFFECTS
+------------------*/
+.game-list-img:hover {
+    border: 1px solid blue;
+    margin-top: -20px;
+    transition: 0.5s;
+}
+/*------------------
     HEADER
 ------------------*/
 .header-top {
