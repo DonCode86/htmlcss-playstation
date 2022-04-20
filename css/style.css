@@ -90,7 +90,9 @@
     z-index: 10;
 }
 
-
+.fa-magnifying-glass {
+    vertical-align: -webkit-baseline-middle;
+}
 /*------------------
     HERO
 ------------------*/
@@ -221,6 +223,9 @@ footer {
     font-weight: 600;
 }
 
+.more-info, .media-img {
+    cursor: pointer;
+}
 /*------------------
     MEDIA QUERY
 ------------------*/
