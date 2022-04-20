@@ -59,6 +59,45 @@
 .device-container-with-opacity:hover {
     opacity: 1;
 }
+
+.nav-link {
+    color: gray; 
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.btn-red:hover {
+    color: #fff;
+    box-shadow: 0 0 0 5px #cd3d0f,
+    inset 0 0 0 2px #000;
+    transition: 0s;
+}
+
+.btn-gray:hover {
+    box-shadow: 0 0 0 5px #363636,
+    inset 0 0 0 2px #fff;
+    transition: 0s;
+}
+
+.btn-blue:hover {
+    box-shadow: 0 0 0 5px #2d64e6,
+    inset 0 0 0 2px #fff;
+    transition: 0s;
+}
+
+.btn-plus:hover {
+    box-shadow: 0 0 0 5px #d9dadc,
+    inset 0 0 0 2px #bebcbb;
+    transition: 0s;
+}
+
+.btn-now:hover {
+    box-shadow: 0 0 0 5px #f5f5f5,
+    inset 0 0 0 2px #161c3b;
+    transition: 0s;
+}
 /*------------------
     HEADER
 ------------------*/
@@ -92,7 +131,9 @@
 
 .fa-magnifying-glass {
     vertical-align: -webkit-baseline-middle;
+    cursor: pointer;
 }
+
 /*------------------
     HERO
 ------------------*/
