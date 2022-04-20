@@ -311,6 +311,11 @@ footer {
 .more-info, .media-img {
     cursor: pointer;
 }
+
+.list-unstyled li {
+    cursor: pointer;
+}
+
 /*------------------
     MEDIA QUERY
 ------------------*/
