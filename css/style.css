@@ -99,6 +99,11 @@
     inset 0 0 0 2px #161c3b;
     transition: 0s;
 }
+
+.play-explore-img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
 /*------------------
     HEADER
 ------------------*/
@@ -193,6 +198,10 @@
 
 .device-list {
     padding-bottom: 50px;
+}
+
+.play-explore-img {
+    padding: 10px 0;
 }
 
 /*------------------
