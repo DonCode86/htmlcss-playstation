@@ -115,28 +115,24 @@
     transform: scale(1.1);
     transition: 0.5s;
     box-shadow: 0 0 30px #1da1f3;
-    border-radius: 50px;
 }
 
 .media-img-fb:hover {
     transform: scale(1.1);
     transition: 0.5s;
     box-shadow: 0 0 30px #1878f3;
-    border-radius: 50px;
 }
 
 .media-img-ig:hover {
     transform: scale(1.1);
     transition: 0.5s;
     box-shadow: 0 0 30px #be3493;
-    border-radius: 50px;
 }
 
 .media-img-yt:hover {
     transform: scale(1.1);
     transition: 0.5s;
     box-shadow: 0 0 30px #c5312c;
-    border-radius: 50px;
 }
 /*------------------
     HEADER
