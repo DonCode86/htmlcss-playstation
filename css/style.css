@@ -103,6 +103,12 @@
 .play-explore-img:hover {
     transform: scale(1.1);
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.new-games-img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 /*------------------
     HEADER
@@ -225,6 +231,10 @@
     background-color: #1f1f1f;
 }
 
+.new-games-img {
+    cursor: pointer;
+    border-radius: 40px;
+}
 /*------------------
     PS PLUS 
 ------------------*/
