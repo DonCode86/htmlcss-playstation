@@ -52,6 +52,10 @@
 /*------------------
     EFFECTS
 ------------------*/
+.dropdown-menu li:hover {
+    border: inset 1px solid lightgray;
+    box-shadow: 0px 0px 10px #000;
+}
 .game-list-img:hover {
     transform: translateY(-20px);
     border: 1px solid blue;
@@ -223,7 +227,12 @@
 .fa-chevron-down {
     font-size: 12px;
 }
-
+.dropdown-menu.show {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    text-align: center;
+}
 /*------------------
     HERO
 ------------------*/
