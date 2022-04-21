@@ -247,7 +247,7 @@
 }
 
 .returnal-hero-banner {
-    max-width: 40%;
+    width: 200px;
 }
 
 .game-list-img {
@@ -411,6 +411,10 @@ footer {
 
     .media-img {
         width: 109px;
+    }
+
+    .returnal-hero-banner {
+        width: 150px;
     }
 }
 
