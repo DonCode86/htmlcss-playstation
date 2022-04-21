@@ -322,7 +322,7 @@
 
 .new-games-img {
     cursor: pointer;
-    border-radius: 40px;
+    border-radius: 20px;
     transition: transform 0.5s;
 }
 
