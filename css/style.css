@@ -6,7 +6,7 @@
     border: none;
     color: #fff;
     font-weight: 500;
-    padding: 10px;
+    padding: 8px;
 }
 
 .btn-gray {
@@ -47,6 +47,7 @@
 
 .footer-bottom-container p {
     font-weight: 600;
+    font-size: 14px;
 }
 
 .line-height-1-5 {
@@ -54,7 +55,11 @@
 }
 
 .top-hero-section h5 {
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.ps-store-section h1 {
+    font-size: 34px;
 }
 /*------------------
     EFFECTS
@@ -264,6 +269,7 @@
     padding: 2px;
     cursor: pointer;
     transition: transform 0.5s;
+    margin-bottom: 20px;
 }
 
 .game-list-img-borded {
@@ -415,13 +421,9 @@ footer {
     .console-presentation {
         display: block;
     }
-    
-    .col-desktop-only {
-        display: none;
-    }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 767px) {
     
     .media-img {
         width: 109px;
@@ -429,6 +431,10 @@ footer {
     
     .returnal-hero-banner {
         width: 150px;
+    }
+
+    .col-desktop-only {
+        display: none;
     }
 }
 
@@ -440,6 +446,11 @@ footer {
     .device-list img {
         width: 100%;
     }
+
+    .playstation-presentation {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -449,7 +460,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 577px) {
     
     .console-presentation {
         display: flex;
