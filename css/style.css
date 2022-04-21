@@ -103,12 +103,10 @@
 .play-explore-img:hover {
     transform: scale(1.1);
     cursor: pointer;
-    /* transition: transform 0.5s; */
 }
 
 .new-games-img:hover {
     transform: scale(1.1);
-    transition: 0.5s;
 }
 
 .media-img-twitter:hover {
@@ -259,6 +257,7 @@
 .new-games-img {
     cursor: pointer;
     border-radius: 40px;
+    transition: transform 0.5s;
 }
 /*------------------
     PS PLUS 
