@@ -395,3 +395,17 @@ footer {
         display: none;
     }
 }
+
+@media screen and (max-width: 770px) {
+
+    .media-img {
+        width: 109px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .media-img {
+        width: 210px;
+    }
+}
