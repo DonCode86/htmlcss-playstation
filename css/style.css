@@ -5,7 +5,7 @@
     border-radius: 30px;
     border: none;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .btn-gray {
@@ -30,10 +30,9 @@
     TYPO
 ------------------*/
 .text-blue{
-    font-size: 12px;
+    font-size: 15px;
     margin: 0;
     color: #0072ce;
-    font-weight: 700;
 }
 
 .gray-text {
