@@ -49,8 +49,12 @@
     font-weight: 600;
 }
 
-.line-height-1 {
+.line-height-1-5 {
     line-height: 1.5;
+}
+
+.top-hero-section h5 {
+    font-size: 18px;
 }
 /*------------------
     EFFECTS
