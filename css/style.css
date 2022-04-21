@@ -216,6 +216,10 @@
     cursor: pointer;
 }
 
+.dropdown-img {
+    width: 150px;
+}
+
 /*------------------
     HERO
 ------------------*/
