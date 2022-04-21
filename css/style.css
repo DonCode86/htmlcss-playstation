@@ -51,10 +51,13 @@
     EFFECTS
 ------------------*/
 .game-list-img:hover {
+    transform: translateY(-20px);
     border: 1px solid blue;
-    margin-top: -20px;
     box-shadow: 0 20px 20px gray;
-    transition: 0.5s;
+}
+
+.game-list-img {
+    transition: transform 0.5s;
 }
 
 .device-container-with-opacity:hover {
