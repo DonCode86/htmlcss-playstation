@@ -277,6 +277,11 @@
     padding-bottom: 40px;
 }
 
+.playstation-presentation {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .console-presentation {
     display: flex;
     align-items: center;
@@ -404,38 +409,49 @@ footer {
 /*------------------
     MEDIA QUERY
 ------------------*/
+
 @media screen and (max-width: 991px) {
 
     .console-presentation {
         display: block;
     }
-
+    
     .col-desktop-only {
         display: none;
     }
 }
 
 @media screen and (max-width: 770px) {
-
+    
     .media-img {
         width: 109px;
     }
-
+    
     .returnal-hero-banner {
         width: 150px;
     }
 }
 
-@media screen and (min-width: 576px) {
-
-    .console-presentation {
-        display: flex;
+@media screen and (max-width: 576px) {
+    .device-list h6 {
+        display: none;
+    }
+    
+    .device-list img {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 550px) {
-
+    
     .media-img {
         width: 210px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    
+    .console-presentation {
+        display: flex;
     }
 }
